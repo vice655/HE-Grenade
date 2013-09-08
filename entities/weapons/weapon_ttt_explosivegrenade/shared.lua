@@ -1,4 +1,3 @@
-
 if SERVER then
    AddCSLuaFile( "shared.lua" )
    
@@ -7,7 +6,7 @@ end
 SWEP.HoldType			= "grenade"
 
 if CLIENT then
-   SWEP.PrintName	 = "grenade_fire"
+   SWEP.PrintName	 = "grenade_explosive"
    SWEP.Slot		 = 3
 
    SWEP.Icon = "VGUI/ttt/icon_nades"
