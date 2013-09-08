@@ -13,8 +13,8 @@ AccessorFunc( ENT, "radius", "Radius", FORCE_NUMBER )
 AccessorFunc( ENT, "dmg", "Dmg", FORCE_NUMBER )
 
 function ENT:Initialize()
-   if not self:GetRadius() then self:SetRadius(512) end
-   if not self:GetDmg() then self:SetDmg(110) end
+   if not self:GetRadius() then self:SetRadius(256) end
+   if not self:GetDmg() then self:SetDmg(80) end
 
    return self.BaseClass.Initialize(self)
 end
